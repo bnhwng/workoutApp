@@ -19,7 +19,7 @@ public class Set {
 
   @Override
   public String toString() {
-    return reps + "reps at " + weight + "kg";
+    return reps + " reps at " + weight + "kg";
   }
   
 }

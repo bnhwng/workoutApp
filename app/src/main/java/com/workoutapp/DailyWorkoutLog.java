@@ -47,13 +47,20 @@ public class DailyWorkoutLog {
     return totalDailyVolume;
   }
 
+  // public void printTotalVolume(){
+  //   StringBuilder sb = new StringBuilder();
+  //   sb.append(date).append( " Log").append(" - Total Volume: ").append(getTotalVolume()).append("kg");
+  //   System.out.print(sb);
+  // }
+
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("Workout Log - Date: ").append(basedMovement).append(date).append("/n");
+    sb.append("Workout Log - Date: ").append(date).append(" ").append(basedMovement).append("\n");
     for(Exercises ex: exercises){
       sb.append(ex).append("\n");
     }
+    sb.append(date).append( " Log").append(" (Focus: ").append(basedMovement).append(")").append(" - Total Volume: ").append(getTotalVolume()).append("kg");
     return sb.toString();
   }
 }

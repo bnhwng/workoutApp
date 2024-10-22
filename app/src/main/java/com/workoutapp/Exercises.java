@@ -47,7 +47,7 @@ public class Exercises {
     StringBuilder sb = new StringBuilder();
     sb.append("Exercise: ").append(name).append(" (Focus: ").append(muscleFocused).append(")\n");
     for (int i = 0; i < sets.size(); i++) {
-      sb.append("Set").append(i + 1).append(": ").append(sets.get(i)).append("\n");
+      sb.append("Set ").append(i + 1).append(": ").append(sets.get(i)).append("\n");
     }
     return sb.toString();
   }
