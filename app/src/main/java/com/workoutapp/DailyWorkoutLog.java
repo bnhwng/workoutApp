@@ -26,6 +26,10 @@ public class DailyWorkoutLog {
     exercises.add(exercise);
   }
 
+  public void removeExercises(Exercises exercise){
+    exercises.remove(exercise);
+  }
+
   //Getters
   public LocalDate getDate(){
     return date;
