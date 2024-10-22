@@ -1,0 +1,10 @@
+Java Method Revision:
++ Access Modifier: 
+  * public: accessible in all classes in your application
+  * protected accessible within the package in which it is defined in its subclasses
+  * private: accessible only within the class in which it is defined.
+  * default: accessible within the same class and package within which its class is defined
+
++ the return type: ez understandable
+
++ Exception list: the exceptions you expect the method to throw. 
